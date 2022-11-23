@@ -461,7 +461,7 @@ header .fa-bars{
 }
 
 /* media queries  */
-@media (max-width:991px){
+@media only screen and (max-width:991px){
     
     html{
         font-size: 55%;
@@ -479,9 +479,14 @@ header .fa-bars{
         background-position: left;
     }
 
-}
-
-@media (max-width:710px){
+    .home{
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+        background:url(img.jpg) no-repeat ;
+        background-size: cover;
+        background-position: center;
+    }
 
     header .fa-bars{
         display: block;
@@ -507,14 +512,6 @@ header .fa-bars{
         display: block;
     }
 
-    .home{
-        display: flex;
-        align-items: center;
-        min-height: 100vh;
-        background:url(img.jpg) no-repeat ;
-        background-size: cover;
-        background-position: center;
-    }
 
     .home .content h3{
         font-size: 5rem;
@@ -531,6 +528,8 @@ header .fa-bars{
     .icons-container .icons span{
         font-size: 1.7rem;
     }
+
+    
 
     @media (max-width:450px){
         html{
