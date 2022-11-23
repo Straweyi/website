@@ -105,7 +105,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    background:#fff;
+    background:white;
     padding:2rem 9%;
     display: flex;
     align-items: center;
@@ -446,7 +446,7 @@ header .fa-bars{
     margin-top: 2rem;
     padding:.5rem;
     padding-top: 2.5rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-align: center;
     color:#333;
     border-top: .1rem solid rgba(0,0,0,.1);
