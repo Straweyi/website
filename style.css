@@ -481,7 +481,7 @@ header .fa-bars{
 
 }
 
-@media (max-width:880px){
+@media (max-width:710px){
 
     header .fa-bars{
         display: block;
@@ -505,6 +505,15 @@ header .fa-bars{
         background:#fff;
         border:.1rem solid rgba(0,0,0,.1);
         display: block;
+    }
+
+    .home{
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+        background:url(img.jpg) no-repeat ;
+        background-size: cover;
+        background-position: center;
     }
 
     .home .content h3{
@@ -532,6 +541,15 @@ header .fa-bars{
             font-size: 3rem;
         }
     
+    }
+
+    .home{
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+        background:url(img.jpg) no-repeat ;
+        background-size: cover;
+        background-position: center;
     }
 
     .home .content h3{
