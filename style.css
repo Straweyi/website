@@ -316,13 +316,13 @@ header .fa-bars{
     height: 5rem;
     line-height: 5rem;
     font-size: 2rem;
-    width:50%;
+    width:100%;
     background:var(--pink);
     color:#fff;
 }
 
 .products .box-container .box .image .icons a:hover{
-    background: #333;
+    background: rgb(10, 172, 10);
 }
 
 .products .box-container .box .content{
