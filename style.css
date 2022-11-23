@@ -392,12 +392,12 @@ header .fa-bars:hover{
 .contact .icons-container .icons .info h3{
     color:#333;
     padding-bottom: .5rem;
-    font-size: 2.5rem;
+    font-size: 1.7rem;
 }
 
 .icons-container .icons .info span{
     color:#555;
-    font-size: 1.8rem;
+    font-size: 1rem;
 }
 
 
@@ -533,7 +533,16 @@ header .fa-bars:hover{
         font-size: 1.7rem;
     }
 
-    
+    .contact .icons-container .icons .info h3{
+        color:#333;
+        padding-bottom: .5rem;
+        font-size: 2.5rem;
+    }
+
+    .icons-container .icons .info span{
+        color:#555;
+        font-size: 1.8rem;
+    }
 
     @media only screen and(max-width:450px){
         html{
