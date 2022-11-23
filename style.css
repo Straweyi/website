@@ -63,7 +63,7 @@ section{
     color: #fff;
     padding:.9rem 3.5rem;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .tmbltt:hover{
@@ -78,7 +78,7 @@ section{
     color: #fff;
     padding:.9rem 3.5rem;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .tmblig:hover{
@@ -93,7 +93,7 @@ section{
     color: #fff;
     padding:.9rem 3.5rem;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .tmblpee:hover{
@@ -125,9 +125,9 @@ header .navbar a:hover{
 }
 
 header .icons a{
-    font-size: 8rem;
+    font-size: 7.5rem;
     color:#333;
-    margin-left: 6.5rem;
+    margin-left: 2.5rem;
 }
 
 header .icons a:hover{
@@ -139,7 +139,7 @@ header #toggler{
 }
 
 header .fa-bars{
-    font-size: 8rem;
+    font-size: 7rem;
     color:#333;
     border-radius: .5rem;
     padding:.5rem 1.5rem;
@@ -392,12 +392,12 @@ header .fa-bars:hover{
 .contact .icons-container .icons .info h3{
     color:#333;
     padding-bottom: .5rem;
-    font-size: 1.4rem;
+    font-size: 2.5rem;
 }
 
 .icons-container .icons .info span{
     color:#555;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
 }
 
 
@@ -465,10 +465,10 @@ header .fa-bars:hover{
 }
 
 /* media queries  */
-@media only screen and (max-width:991px){
+@media only screen and (max-width: 991px){
     
     html{
-        font-size: 55%;
+        font-size: 115%;
     }
 
     header{
@@ -476,7 +476,7 @@ header .fa-bars:hover{
     }
 
     section{
-        padding:2rem;
+        padding:3.5rem;
     }
 
     .home{
@@ -535,7 +535,7 @@ header .fa-bars:hover{
 
     
 
-    @media (max-width:450px){
+    @media only screen and(max-width:450px){
         html{
             font-size: 50%;
         }
