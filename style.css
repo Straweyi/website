@@ -115,7 +115,7 @@ header{
 }
 
 header .navbar a{
-    font-size: 2rem;
+    font-size:2.7rem;
     padding:0 1.5rem;
     color:#666;
 }
@@ -125,9 +125,9 @@ header .navbar a:hover{
 }
 
 header .icons a{
-    font-size: 2.5rem;
+    font-size: 5rem;
     color:#333;
-    margin-left: 1.5rem;
+    margin-left: 3rem;
 }
 
 header .icons a:hover{
@@ -139,7 +139,7 @@ header #toggler{
 }
 
 header .fa-bars{
-    font-size: 3rem;
+    font-size: 5rem;
     color:#333;
     border-radius: .5rem;
     padding:.5rem 1.5rem;
@@ -167,7 +167,7 @@ header .fa-bars{
 }
 
 .home .content span{
-    font-size: 2rem;
+    font-size: 3rem;
     color:var(--pink);
     padding:1rem 0;
     line-height: 1.5;
