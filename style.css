@@ -115,7 +115,7 @@ header{
 }
 
 header .navbar a{
-    font-size:3rem;
+    font-size:3.5rem;
     padding:0 1.5rem;
     color:#666;
 }
@@ -125,7 +125,7 @@ header .navbar a:hover{
 }
 
 header .icons a{
-    font-size: 7.5rem;
+    font-size: 5.3rem;
     color:#333;
     margin-left: 2.5rem;
 }
@@ -139,7 +139,7 @@ header #toggler{
 }
 
 header .fa-bars{
-    font-size: 7rem;
+    font-size: 4.5rem;
     color:#333;
     border-radius: .5rem;
     padding:.5rem 1.5rem;
