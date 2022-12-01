@@ -27,7 +27,7 @@ section{
 
 .heading{
     text-align: center;
-    font: size 4rem;
+    font-size: 4rem;
     color: #333;
     padding: 1rem;
     margin:2rem 0;
@@ -38,6 +38,11 @@ section{
 
     color: var(--pink);
 
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
 }
 
 .btn{
@@ -115,7 +120,7 @@ header{
 }
 
 header .navbar a{
-    font-size:3.5rem;
+    font-size: 2rem;
     padding:0 1.5rem;
     color:#666;
 }
@@ -125,7 +130,7 @@ header .navbar a:hover{
 }
 
 header .icons a{
-    font-size: 5.3rem;
+    font-size: 4rem;
     color:#333;
     margin-left: 2.5rem;
 }
@@ -152,6 +157,7 @@ header .fa-bars:hover{
     color: var(--pink);
 }
 
+
 .home{
     display: flex;
     align-items: center;
@@ -171,15 +177,15 @@ header .fa-bars:hover{
 }
 
 .home .content span{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color:var(--pink);
     padding:1rem 0;
     line-height: 1.5;
 }
 
 .home .content{
-    font-size: 1rem;
-    color:#999;
+    font-size: 1.5rem;
+    color: #333;
     padding:1rem 0;
     line-height: 1.5;
 }
@@ -465,7 +471,7 @@ header .fa-bars:hover{
 }
 
 /* media queries  */
-@media only screen and (max-width: 991px){
+@media (max-width: 992px){
     
     html{
         font-size: 115%;
@@ -473,6 +479,10 @@ header .fa-bars:hover{
 
     header{
         padding:2rem;
+    }
+
+    header .icons a{
+        font-size: 3rem;
     }
 
     section{
@@ -494,6 +504,7 @@ header .fa-bars:hover{
 
     header .fa-bars{
         display: block;
+        font-size: 2rem;
     }
 
     header .navbar{
@@ -511,6 +522,7 @@ header .fa-bars:hover{
     header .navbar a{
         margin:1.5rem;
         padding:1.5rem;
+        font-size: 2rem;
         background:#fff;
         border:.1rem solid rgba(0,0,0,.1);
         display: block;
@@ -522,7 +534,23 @@ header .fa-bars:hover{
     }
 
     .home .content span{
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .about .row .video-container h3{
+        position: absolute;
+        top:50%; transform: translateY(-50%);
+        font-size: 2.6rem;
+        background:#fff;
+        width:100%;
+        padding:1rem 2rem;
+        text-align: center;
+        mix-blend-mode: screen;
+    }
+
+    .about .row .content h3{
+        font-size: 3rem;
+        color: #333;
     }
 
     .icons-container .icons h3{
@@ -569,6 +597,6 @@ header .fa-bars:hover{
     }
 
     .home .content span{
-        font-size: 2rem;
+        font-size: 2.3rem;
     }    
 }
